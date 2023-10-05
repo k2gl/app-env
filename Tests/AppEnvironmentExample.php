@@ -9,5 +9,6 @@ enum AppEnvironmentExample: string
     case DEV = 'dev';
     case TEST = 'test';
     case STAGE = 'stage';
+    case ALPHA = 'alpha';
     case PROD = 'prod';
 }
