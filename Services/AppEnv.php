@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace K2gl\Component\AppEnv;
+namespace K2gl\Component\AppEnv\Services;
 
 use BackedEnum;
 

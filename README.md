@@ -22,7 +22,7 @@ enum AppEnvironment: string
     case PROD = 'prod';
 }
 
-use K2gl\Component\AppEnv\AppEnv;
+use K2gl\Component\AppEnv\Services\AppEnv;
 
 $appEnv = new AppEnv('test');
 
@@ -45,15 +45,14 @@ Makes AppEnv available to be used as services in **services.yaml**
 
 ```
 services:
-    K2gl\Component\AppEnv\AppEnv:
-        resource: '../vendor/k2gl/app-env/src/'
+    K2gl\Component\AppEnv\Services\AppEnv:
         arguments: ['%kernel.environment%']
 ```
 
 ## Usage example:
 
 ```php
-use K2gl\Component\AppEnv\AppEnv;
+use K2gl\Component\AppEnv\Services\AppEnv;
 
 class UserLoginProcessor
 {

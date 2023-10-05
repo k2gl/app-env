@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace K2gl\Component\AppEnv\Tests\AppEnv;
+namespace K2gl\Component\AppEnv\Tests\Services\AppEnv;
 
-use K2gl\Component\AppEnv\AppEnv;
-use K2gl\Component\AppEnv\Tests\Examples\AppEnvironmentExample;
+use K2gl\Component\AppEnv\Services\AppEnv;
+use K2gl\Component\AppEnv\Tests\AppEnvironmentExample;
 use PHPUnit\Framework\TestCase;
 
 use function K2gl\PHPUnitFluentAssertions\fact;
 
-/** @covers \K2gl\Component\AppEnv\AppEnv::is() */
-final class AppEnvIsTest extends TestCase
+/** @covers \K2gl\Component\AppEnv\Services\AppEnv::is() */
+final class TestAppEnvIs extends TestCase
 {
     public function testAppEnvIs(): void
     {

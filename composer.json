@@ -24,12 +24,11 @@
   },
   "autoload": {
     "psr-4": {
-      "K2gl\\Component\\AppEnv\\": "src/"
-    }
+      "K2gl\\Component\\AppEnv\\": ""
+    },
+    "exclude-from-classmap": [
+      "/Tests/"
+    ]
   },
-  "autoload-dev": {
-    "psr-4": {
-      "K2gl\\Component\\AppEnv\\Tests\\": "tests/"
-    }
-  }
+  "minimum-stability": "stable"
 }
