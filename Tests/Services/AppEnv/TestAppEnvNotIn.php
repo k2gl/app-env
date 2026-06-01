@@ -6,10 +6,9 @@ namespace K2gl\Component\AppEnv\Tests\Services\AppEnv;
 
 use K2gl\Component\AppEnv\Services\AppEnv;
 use K2gl\Component\AppEnv\Tests\AppEnvironmentExample;
+use PHPUnit\Framework\TestCase;
 
 use function K2gl\PHPUnitFluentAssertions\fact;
-
-use PHPUnit\Framework\TestCase;
 
 final class TestAppEnvNotIn extends TestCase
 {

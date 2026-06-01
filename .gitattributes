@@ -2,4 +2,4 @@
 *.md export-ignore
 phpunit.xml export-ignore
 phpstan.neon export-ignore
-Tests export-ignore
+Tests export-ignorepint.json export-ignore

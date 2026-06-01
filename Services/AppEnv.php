@@ -10,8 +10,7 @@ class AppEnv
 {
     public function __construct(
         protected readonly string $env
-    ) {
-    }
+    ) {}
 
     public function is(BackedEnum|string $env): bool
     {
@@ -24,7 +23,7 @@ class AppEnv
 
     public function not(BackedEnum|string $env): bool
     {
-        return !$this->is($env);
+        return ! $this->is($env);
     }
 
     /**
@@ -46,6 +45,6 @@ class AppEnv
      */
     public function notIn(array $envs): bool
     {
-        return !$this->in($envs);
+        return ! $this->in($envs);
     }
 }

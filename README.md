@@ -1,5 +1,11 @@
 # PHP AppEnv service
 
+[![CI](https://img.shields.io/github/actions/workflow/status/k2gl/app-env/ci.yml?branch=main&label=CI&logo=github)](https://github.com/k2gl/app-env/actions/workflows/ci.yml)
+[![Latest Stable Version](https://img.shields.io/packagist/v/k2gl/app-env?logo=packagist&logoColor=white)](https://packagist.org/packages/k2gl/app-env)
+[![Total Downloads](https://img.shields.io/packagist/dt/k2gl/app-env?logo=packagist&logoColor=white)](https://packagist.org/packages/k2gl/app-env)
+[![PHPStan Level](https://img.shields.io/badge/PHPStan-level%209-2a5ea7?logo=php&logoColor=white)](https://phpstan.org)
+[![License](https://img.shields.io/packagist/l/k2gl/app-env?color=yellowgreen)](https://packagist.org/packages/k2gl/app-env)
+
 Allows you to do something special depending on the current environment.
 
 ## Installation
