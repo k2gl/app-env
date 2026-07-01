@@ -6,7 +6,7 @@
 [![PHPStan Level](https://img.shields.io/badge/PHPStan-level%209-2a5ea7?logo=php&logoColor=white)](https://phpstan.org)
 [![License](https://img.shields.io/packagist/l/k2gl/app-env?color=yellowgreen)](https://packagist.org/packages/k2gl/app-env)
 
-Allows you to do something special depending on the current environment.
+Run code conditionally on the current application environment (prod, dev, test).
 
 ## Installation
 
