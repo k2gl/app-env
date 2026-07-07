@@ -1,6 +1,6 @@
 {
   "name": "k2gl/app-env",
-  "description": "Run code conditionally on the current application environment (prod, dev, test).",
+  "description": "Run code conditionally on the current application environment (prod, dev, test)",
   "homepage": "https://github.com/k2gl/app-env",
   "type": "library",
   "license": "MIT",
